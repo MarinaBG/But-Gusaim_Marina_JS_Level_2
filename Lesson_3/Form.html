@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="Form.js" type="text/javascript" defer></script>
+    <title>Document</title>
+
+    <style>
+        #text {
+            height: 100px;
+        }
+        .form-control.error:focus /* .error */ {
+            border-color: #FF0000;
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6);
+        }
+        .error {
+            border-color: #FF0000;
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form class="message-form mt-2">
+            <div class="form-group name">
+                <label for="exampleFormControlSelect1">Имя</label>
+                <input type="text" class="form-control" id="name" placeholder="Имя">
+            </div>
+
+            <div class="form-group phone">
+                <label for="message">Телефон</label>
+                <input type="text" class="form-control" id="phone" placeholder="+7(000)000-0000">
+            </div>
+            
+            <div class="form-group email">
+                <label for="message">E-mail</label>
+                <input type="email" class="form-control" id="email" placeholder="E-mail">
+            </div>
+
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Текст сообщения</label>
+                <textarea class="form-control" id="text" rows="3"></textarea>
+            </div>
+
+            <button type="button" class="btn btn-primary" id="submit">Отправить</button>
+        </form>
+    </div>
+</body>
+</html>
