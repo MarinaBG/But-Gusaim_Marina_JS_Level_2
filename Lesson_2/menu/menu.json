@@ -1,0 +1,72 @@
+[{
+    "href": "/",
+    "name": "Главная"
+}, {
+    "href": "/catalog",
+    "name": "Каталог",
+    "submenuItems": [
+        {
+            "href": "/forMen",
+            "name": "Мужчинам",
+            "submenuItems": [
+                {
+                    "href": "/clothes",
+                    "name": "Одежда"
+                }, {
+                    "href": "/footwear",
+                    "name": "Обувь"
+                }, {
+                    "href": "/accessories",
+                    "name": "Аксессуары"
+                }, {
+                    "href": "/sale",
+                    "name": "Распродажа"
+                }]
+        }, {
+            "href": "/forWoman",
+            "name": "Женщинам",
+            "submenuItems": [
+                {
+                    "href": "/clothes",
+                    "name": "Одежда"
+                }, {
+                    "href": "/footwear",
+                    "name": "Обувь"
+                }, {
+                    "href": "/accessories",
+                    "name": "Аксессуары"
+                }, {
+                    "href": "/sale",
+                    "name": "Распродажа"
+                }]
+        }, {
+            "href": "/forKids",
+            "name": "Детям",
+            "submenuItems": [
+                {
+                    "href": "/clothes",
+                    "name": "Одежда"
+                }, {
+                    "href": "/footwear",
+                    "name": "Обувь"
+                }, {
+                    "href": "/toys",
+                    "name": "Игрушки"
+                }, {
+                    "href": "/sale",
+                    "name": "Распродажа"
+                }]
+        }]
+}, {
+    "href": "/stocks",
+    "name": "Акции"
+}, {
+    "href": "/comments",
+    "name": "Отзывы"
+}, {
+    "href": "/delivery",
+    "name": "Доставка"
+}, {
+    "href": "/personal_area",
+    "name": "Личный кабинет"
+}]
