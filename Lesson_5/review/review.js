@@ -86,6 +86,7 @@ class Review {
     } 
     onApprove(event){
         let id = parseInt($(event.currentTarget).attr('data-id'));
+        event.currentTarget.disabled = 'disabled';
        
         if (id >= 0) {
             this.request(Api.submit, this.reviews[id].id_comment);
