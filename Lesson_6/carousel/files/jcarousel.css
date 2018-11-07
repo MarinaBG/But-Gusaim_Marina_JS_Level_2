@@ -1,0 +1,74 @@
+.jcarousel-wrapper {
+    margin: 20px auto;
+    position: relative;
+    width: 667px;
+    height: 500px;
+}
+
+.jcarousel {
+    overflow: hidden;
+}
+
+.jcarousel ul {
+    width: 10000em;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.jcarousel li {
+    float: left;
+}
+
+.jcarousel-control-prev,
+.jcarousel-control-next {
+    position: absolute;
+    top: 230px;
+    width: 25px;
+    height: 25px;
+}
+
+.jcarousel-control-prev {
+    left: -70px;
+}
+
+.jcarousel-control-next {
+    right: -70px;
+}
+
+.jcarousel-control-prev.inactive,
+.jcarousel-control-next.inactive {
+    opacity: .5;
+    cursor: default;
+}
+
+.jcarousel-pagination {
+    width: inherit;
+    display: flex;
+    justify-content: center;    
+}
+
+.jcarousel-pagination a {
+    text-decoration: none;
+    display: inline-block;
+    
+    font: 18px Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    min-width: 20px;
+    
+    background: #fff;
+    color:#737374;
+    border-radius: 14px;
+    padding: 3px;
+    text-align: center;
+    
+    margin-right: 2px;
+}
+
+.jcarousel-pagination a.active {
+    background: #737374;
+    color: rgb(255, 255, 255);
+}
