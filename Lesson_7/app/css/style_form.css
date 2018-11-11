@@ -1,0 +1,47 @@
+.container {
+    margin: 0, auto;
+    width: 1200px;
+}
+.requiredField {
+    color: red;
+}
+.form-control.error:focus {
+    border-color: #FF0000;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6);
+}
+.error {
+    border-color: #FF0000;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6);
+}
+#newCity {
+    padding-left: 16px;
+    display: block;
+}
+.cities {
+    width: 485px;
+}
+.cities:first-child {
+    margin-right: 30px;
+}
+.citiesGroup {
+    display: flex;
+    flex-wrap: wrap;
+}
+#dialog{
+    display: none;
+}
+.message-form{
+    position: relative;
+    margin-top: 570px;
+    width: 1000px;
+}
+.btn{
+    background: #737374;
+    color: #ffffff;
+    border: solid #737374; 
+}
+.btn:hover {
+    background: #737374;
+    opacity: .5; 
+    border: solid #737374; 
+}
